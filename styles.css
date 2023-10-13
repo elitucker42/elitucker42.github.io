@@ -21,3 +21,8 @@
     font-size: 24px;
     font-weight: bold;
 }
+
+#date-selector {
+    margin: 20px auto;
+    display: block;
+}
