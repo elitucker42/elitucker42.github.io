@@ -5,7 +5,7 @@ let board;
 async function loadCSV() {
     const response = await fetch('data.csv');
     const csvText = await response.text();
-    data = Papa.parse(csvText, {
+    Papa.parse(csvText, {
         header: true,
         dynamicTyping: true,
         complete: function(results) {
